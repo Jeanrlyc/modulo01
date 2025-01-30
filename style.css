@@ -1,0 +1,123 @@
+body {
+   margin: 0;
+}
+
+#shopfy{
+    background-color: #008060;
+    text-align: center;
+    color: white;
+    width: 95vw;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2%;
+    margin-right: 2%;
+        
+}
+#shopfy h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-bottom: -10px;
+    
+}
+#shopfy h3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 24%;
+    margin-right: 24%;
+    font-size: 25px;
+
+    
+}
+#bott{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+    
+}
+#bott button{
+    color: rgb(255, 255, 255);
+    background-color: #212326;
+    width: 9vw;
+    height: 8vh;
+    border-radius: 7%;
+    box-shadow: none;
+    cursor: grab;
+    
+}
+#try{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 31%;
+    margin-right: 31%;
+    font-size: 11px;
+   
+
+}
+#email{
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    width: 27vw;
+    height: 8vh;
+    border-radius: 7%;
+    margin-right: 10px;
+
+}
+#custon {
+    display: flex;
+    padding-top: 270px;
+    text-align: center;
+    width: 95vw;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    gap: 3vh;
+
+}
+.caixa {
+    width: 300px; /* Largura da caixa */
+    height: 200px; /* Altura da caixa */
+    border: 2px solid #ffffff; /* Borda com cor verde */
+    border-radius: 10px; /* Bordas arredondadas */
+    background-color: #ffffff; /* Cor de fundo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra da caixa */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    font-family: Arial, sans-serif; /* Fonte */
+    color: #333; /* Cor do texto */
+    text-align: initial;
+}
+#custon p {
+    color: gray;
+}
+#prop{
+    text-align: center;
+}
+.ceo {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+.ceo h3{
+    font-size: 20px;
+    margin-left: 31%;
+    margin-right: 31%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+.ceo p{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ceo button{
+    background-color: #008060;
+    color: white;
+    width: 9vw;
+    height: 8vh;
+    border-radius: 7%;
+    box-shadow: none;
+    cursor: grab;
+}
