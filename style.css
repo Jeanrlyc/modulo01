@@ -121,3 +121,32 @@ body {
     box-shadow: none;
     cursor: grab;
 }
+.faq {
+    max-width: 600px;
+    margin: 0 auto;
+    
+}
+.faqinf{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+}
+summary {
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    list-style: none;
+}
+summary::after {
+    content: "+";
+    font-size: 18px;
+    float: right;
+}
+details {
+    
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 10px;
+}
