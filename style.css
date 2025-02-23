@@ -1,156 +1,174 @@
 body {
-   margin: 0;
-}
-
-#shopfy{
-    background-color: #008060;
-    text-align: center;
-    color: white;
-    width: 95vw;
-    height: 60vh;
-    align-items: center;
-    justify-content: center;
-    margin-left: 2%;
-    margin-right: 2%;
-        
-}
-#shopfy h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
-    margin-bottom: -10px;
+    margin: 0;
+ }
+ 
+ #shopfy{
+     background-color: #008060;
+     text-align: center;
+     color: white;
+     width: 95vw;
+     height: 60vh;
+     align-items: center;
+     justify-content: center;
+     margin-left: 2%;
+     margin-right: 2%;
+         
+ }
+ #shopfy h1{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 50px;
+     margin-bottom: -10px;
+     
+ }
+ #shopfy h3{
+     font-family: Arial, Helvetica, sans-serif;
+     margin-left: 24%;
+     margin-right: 24%;
+     font-size: 25px;
+     
+ }
+ #shopfy img{
+     margin-top:1vh;
+ }
+ #bott{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 2vh;
+     
+ }
+ #bott button{
+     color: rgb(255, 255, 255);
+     background-color: #212326;
+     width: 9vw;
+     height: 8vh;
+     border-radius: 7%;
+     box-shadow: none;
+     cursor: grab;
+     
+ }
+ #try{
+     font-family: Arial, Helvetica, sans-serif;
+     margin-left: 31%;
+     margin-right: 31%;
+     font-size: 11px;
     
-}
-#shopfy h3{
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 24%;
-    margin-right: 24%;
-    font-size: 25px;
-
-    
-}
-#bott{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2vh;
-    
-}
-#bott button{
-    color: rgb(255, 255, 255);
-    background-color: #212326;
-    width: 9vw;
-    height: 8vh;
-    border-radius: 7%;
-    box-shadow: none;
-    cursor: grab;
-    
-}
-#try{
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 31%;
-    margin-right: 31%;
-    font-size: 11px;
-   
-
-}
-#email{
-    color: rgb(0, 0, 0);
-    background-color: #ffffff;
-    width: 27vw;
-    height: 8vh;
-    border-radius: 7%;
-    margin-right: 10px;
-
-}
-#custon {
-    display: flex;
-    padding-top: 270px;
-    text-align: center;
-    width: 95vw;
-    height: 60vh;
-    align-items: center;
-    justify-content: center;
-    margin-left: 2%;
-    margin-right: 2%;
-    gap: 3vh;
-
-}
-.caixa {
-    width: 300px; /* Largura da caixa */
-    height: 200px; /* Altura da caixa */
-    border: 2px solid #ffffff; /* Borda com cor verde */
-    border-radius: 10px; /* Bordas arredondadas */
-    background-color: #ffffff; /* Cor de fundo */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra da caixa */
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    font-family: Arial, sans-serif; /* Fonte */
-    color: #333; /* Cor do texto */
-    text-align: initial;
-}
-#custon p {
-    color: gray;
-}
-#prop{
-    text-align: center;
-}
-.ceo {
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    
-}
-.ceo h3{
-    font-size: 20px;
-    margin-left: 31%;
-    margin-right: 31%;
-    font-family: Arial, Helvetica, sans-serif;
-    
-    
-}
-.ceo p{
-    color: gray;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.ceo button{
-    background-color: #008060;
-    color: white;
-    width: 9vw;
-    height: 8vh;
-    border-radius: 7%;
-    box-shadow: none;
-    cursor: grab;
-}
-.faq {
-    max-width: 600px;
-    margin: 0 auto;
-    
-}
-.faqinf{
-    margin-top: 10px;
-    font-size: 14px;
-    color:#008060;
-    line-height: 1.6;
-}
-.faq h1{
-    text-align: center;
-    color: #008060;
-}
-summary {
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    list-style: none;
-}
-summary::after {
-    content: "+";
-    font-size: 18px;
-    float: right;
-}
-details {
-    
-    border-radius: 5px;
-    margin-bottom: 10px;
-    background-color: #fff;
-    padding: 10px;
-}
+ 
+ }
+ #email{
+     color: rgb(0, 0, 0);
+     background-color: #ffffff;
+     width: 27vw;
+     height: 8vh;
+     margin-right: 10px;
+     outline: 0;
+     box-shadow: 0,0,0,0;
+     
+ 
+ }
+ #custon {
+     display: flex;
+     padding-top: 270px;
+     text-align: center;
+     width: 95vw;
+     height: 60vh;
+     align-items: center;
+     justify-content: center;
+     margin-left: 2%;
+     margin-right: 2%;
+     gap: 3vh;
+ 
+ }
+ .caixa {
+     width: 300px; 
+     height: 200px;
+     border: 2px solid #ffffff; 
+     border-radius: 10px; 
+     background-color: #ffffff; 
+     
+     justify-content: center;
+     align-items: center; 
+     font-family: Arial, sans-serif; 
+     color: #333; 
+     text-align: initial;
+     
+ }
+ #custon p {
+     color: gray;
+ }
+ #prop{
+     text-align: center;
+ }
+ .ceo {
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+     
+ }
+ .ceo h3{
+     font-size: 20px;
+     margin-left: 31%;
+     margin-right: 31%;
+     font-family: Arial, Helvetica, sans-serif;
+     
+     
+ }
+ .ceo p{
+     color: gray;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ .ceo button{
+     background-color: #008060;
+     color: white;
+     width: 9vw;
+     height: 8vh;
+     border-radius: 7%;
+     box-shadow: none;
+     cursor: grab;
+     border: none;
+ }
+ .faq {
+     max-width: 600px;
+     margin: 0 auto;
+     
+ }
+ .faqinf{
+     margin-top: 10px;
+     font-size: 14px;
+     color:#008060;
+     line-height: 1.6;
+ }
+ .faq h1{
+     text-align: center;
+     color: #008060;
+ }
+ summary {
+     font-size: 16px;
+     font-weight: bold;
+     cursor: pointer;
+     list-style: none;
+ }
+ summary::after {
+     content: "+";
+     font-size: 18px;
+     float: right;
+ }
+ details {
+     
+     border-radius: 5px;
+     margin-bottom: 10px;
+     background-color: #fff;
+     padding: 10px;
+ }
+ .terms {
+     display: flex;
+     align-items: center;
+     justify-content: end;
+     gap: 1vw;
+     width: 80vw;
+     margin-top: 20vh;
+ }
+ .terms a{
+     color: #008060;
+     text-decoration: none;
+ }
